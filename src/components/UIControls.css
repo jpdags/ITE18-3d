@@ -1,0 +1,298 @@
+.ui-controls {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.control-panel {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: rgba(15, 15, 20, 0.85);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 24px;
+  min-width: 280px;
+  pointer-events: auto;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.app-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.animal-selector {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.selector-button {
+  width: 100%;
+  padding: 12px 16px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.selector-button:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.selector-label {
+  flex: 1;
+  text-align: left;
+}
+
+.arrow {
+  transition: transform 0.3s ease;
+  font-size: 12px;
+}
+
+.arrow.expanded {
+  transform: rotate(180deg);
+}
+
+.animal-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin-top: 8px;
+  background: rgba(15, 15, 20, 0.95);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  max-height: 300px;
+  overflow-y: auto;
+  z-index: 100;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+.animal-option {
+  width: 100%;
+  padding: 12px 16px;
+  background: transparent;
+  border: none;
+  color: white;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.animal-option:last-child {
+  border-bottom: none;
+}
+
+.animal-option:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.animal-option.active {
+  background: rgba(102, 126, 234, 0.3);
+  color: #a5b4fc;
+}
+
+.quick-select {
+  margin-bottom: 20px;
+}
+
+.quick-select-label {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.animal-buttons {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.animal-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.animal-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+.animal-button.active {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-color: #667eea;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.reset-button {
+  width: 100%;
+  padding: 12px 16px;
+  background: rgba(102, 126, 234, 0.2);
+  border: 1px solid rgba(102, 126, 234, 0.4);
+  border-radius: 8px;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+}
+
+.reset-button:hover {
+  background: rgba(102, 126, 234, 0.3);
+  border-color: rgba(102, 126, 234, 0.6);
+  transform: translateY(-2px);
+}
+
+.reset-icon {
+  font-size: 18px;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.reset-button:hover .reset-icon {
+  transform: rotate(180deg);
+}
+
+.guided-mode-button {
+  width: 100%;
+  padding: 12px 16px;
+  background: rgba(118, 75, 162, 0.2);
+  border: 1px solid rgba(118, 75, 162, 0.4);
+  border-radius: 8px;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+  margin-bottom: 12px;
+}
+
+.guided-mode-button:hover {
+  background: rgba(118, 75, 162, 0.3);
+  border-color: rgba(118, 75, 162, 0.6);
+  transform: translateY(-2px);
+}
+
+.guided-mode-button.active {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-color: #764ba2;
+  box-shadow: 0 4px 12px rgba(118, 75, 162, 0.4);
+}
+
+.guided-mode-icon {
+  font-size: 16px;
+}
+
+.comparison-mode-button {
+  width: 100%;
+  padding: 12px 16px;
+  background: rgba(118, 75, 162, 0.2);
+  border: 1px solid rgba(118, 75, 162, 0.4);
+  border-radius: 8px;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+  margin-bottom: 12px;
+}
+
+.comparison-mode-button:hover {
+  background: rgba(118, 75, 162, 0.3);
+  border-color: rgba(118, 75, 162, 0.6);
+  transform: translateY(-2px);
+}
+
+.comparison-mode-button.active {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-color: #764ba2;
+  box-shadow: 0 4px 12px rgba(118, 75, 162, 0.4);
+}
+
+.comparison-mode-icon {
+  font-size: 16px;
+}
+
+.instructions {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background: rgba(15, 15, 20, 0.75);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding: 16px;
+  pointer-events: auto;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.instructions p {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 4px 0;
+  line-height: 1.6;
+}
+
+/* Scrollbar styling for animal list */
+.animal-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.animal-list::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 3px;
+}
+
+.animal-list::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+}
+
+.animal-list::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+

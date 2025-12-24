@@ -1,0 +1,821 @@
+{
+  "animals": [
+    {
+      "id": "cow",
+      "name": "Cow",
+      "scientificName": "Bos taurus",
+      "modelPath": "/assets/models/Cow.glb",
+      "habitat": "Grasslands, farms, and pastures",
+      "diet": "Herbivore - primarily grass and hay",
+      "size": "Height: 1.2-1.5m, Weight: 400-900kg",
+      "traits": [
+        "Domesticated for over 10,000 years",
+        "Excellent sense of smell",
+        "Can see almost 360 degrees",
+        "Social animals that form herds"
+      ],
+      "funFact": "Cows have best friends and can become stressed when separated from them!",
+      "environmentType": "grassland",
+      "guidedLearningSteps": [
+        {
+          "step": 1,
+          "region": "Head",
+          "title": "The Head",
+          "description": "The cow's head contains powerful senses. Notice the large eyes positioned on the sides, giving them nearly 360-degree vision to spot predators. The wide nostrils help them detect scents from far away.",
+          "cameraPosition": [0, 1.8, 6],
+          "cameraTarget": [0, 0.8, 0]
+        },
+        {
+          "step": 2,
+          "region": "Body",
+          "title": "The Body",
+          "description": "Cows have a large, barrel-shaped body designed for digesting tough plant material. Their four-chambered stomach allows them to efficiently break down grass and hay through a process called rumination.",
+          "cameraPosition": [0, 2, 7],
+          "cameraTarget": [0, 0.6, 0]
+        },
+        {
+          "step": 3,
+          "region": "Legs",
+          "title": "The Legs",
+          "description": "A cow's legs are strong and sturdy, supporting their heavy body weight. The hooves are split into two parts (cloven hooves), which help distribute weight and provide stability on various terrains.",
+          "cameraPosition": [4, 1.2, 5],
+          "cameraTarget": [0, 0.4, 0]
+        },
+        {
+          "step": 4,
+          "region": "Tail",
+          "title": "The Tail",
+          "description": "The tail serves multiple purposes: swatting away flies and insects, communication with other cows, and balance. It's covered in coarse hair and can move in various directions.",
+          "cameraPosition": [-4, 1.5, 5],
+          "cameraTarget": [0, 0.5, -0.2]
+        }
+      ]
+    },
+    {
+      "id": "horse",
+      "name": "Horse",
+      "scientificName": "Equus ferus caballus",
+      "modelPath": "/assets/models/Horse.glb",
+      "habitat": "Grasslands, meadows, and stables",
+      "diet": "Herbivore - grass, hay, and grains",
+      "size": "Height: 1.4-1.8m, Weight: 380-1,000kg",
+      "traits": [
+        "Can sleep both standing and lying down",
+        "Excellent memory and learning ability",
+        "Can run up to 88 km/h",
+        "Have the largest eyes of any land mammal"
+      ],
+      "funFact": "Horses can communicate their emotions through facial expressions!",
+      "environmentType": "grassland",
+      "guidedLearningSteps": [
+        {
+          "step": 1,
+          "region": "Head",
+          "title": "The Head",
+          "description": "Horses have the largest eyes of any land mammal, positioned on the sides of their head for excellent peripheral vision. Their long muzzle contains sensitive whiskers that help them explore their environment.",
+          "cameraPosition": [0, 2, 6],
+          "cameraTarget": [0, 0.9, 0]
+        },
+        {
+          "step": 2,
+          "region": "Body",
+          "title": "The Body",
+          "description": "A horse's body is built for speed and endurance. The powerful chest and back muscles allow them to run at speeds up to 88 km/h. Their digestive system is designed for continuous grazing.",
+          "cameraPosition": [0, 2.2, 7],
+          "cameraTarget": [0, 0.7, 0]
+        },
+        {
+          "step": 3,
+          "region": "Legs",
+          "title": "The Legs",
+          "description": "Horse legs are long and slender, ending in a single solid hoof. This structure allows for incredible speed and agility. The leg bones are lightweight but extremely strong.",
+          "cameraPosition": [4.5, 1.5, 5],
+          "cameraTarget": [0, 0.5, 0]
+        },
+        {
+          "step": 4,
+          "region": "Mane and Tail",
+          "title": "Mane and Tail",
+          "description": "The mane and tail provide protection from insects and help with temperature regulation. They're also used for communication - a swishing tail can indicate irritation or excitement.",
+          "cameraPosition": [-4.5, 1.8, 5],
+          "cameraTarget": [0, 0.6, -0.2]
+        }
+      ]
+    },
+    {
+      "id": "wolf",
+      "name": "Wolf",
+      "scientificName": "Canis lupus",
+      "modelPath": "/assets/models/Wolf.glb",
+      "habitat": "Forests, tundra, grasslands, and mountains",
+      "diet": "Carnivore - deer, elk, moose, and smaller mammals",
+      "size": "Height: 0.6-0.9m, Weight: 20-80kg",
+      "traits": [
+        "Live in packs with complex social structures",
+        "Excellent sense of hearing and smell",
+        "Can travel up to 20km in a single day",
+        "Strong family bonds and cooperative hunting"
+      ],
+      "funFact": "Wolves can howl to communicate with pack members up to 10km away!",
+      "environmentType": "forest",
+      "guidedLearningSteps": [
+        {
+          "step": 1,
+          "region": "Head",
+          "title": "The Head",
+          "description": "A wolf's head features powerful jaws with sharp teeth designed for hunting. Their excellent sense of smell and hearing make them skilled predators. The ears can rotate independently to locate sounds.",
+          "cameraPosition": [0, 1.5, 5.5],
+          "cameraTarget": [0, 0.5, 0]
+        },
+        {
+          "step": 2,
+          "region": "Body",
+          "title": "The Body",
+          "description": "Wolves have a lean, muscular body built for endurance. They can travel up to 20km in a single day while hunting. Their thick fur provides insulation in cold climates.",
+          "cameraPosition": [0, 1.6, 6],
+          "cameraTarget": [0, 0.4, 0]
+        },
+        {
+          "step": 3,
+          "region": "Legs",
+          "title": "The Legs",
+          "description": "Long, powerful legs allow wolves to run at speeds up to 60 km/h. Their large paws act like snowshoes, distributing weight on soft ground and providing traction.",
+          "cameraPosition": [3.5, 1, 4.5],
+          "cameraTarget": [0, 0.3, 0]
+        },
+        {
+          "step": 4,
+          "region": "Tail",
+          "title": "The Tail",
+          "description": "A wolf's tail is used for balance and communication. The position and movement of the tail convey social signals to other pack members, indicating mood and status.",
+          "cameraPosition": [-3.5, 1.3, 4.5],
+          "cameraTarget": [0, 0.4, -0.2]
+        }
+      ]
+    },
+    {
+      "id": "deer",
+      "name": "Deer",
+      "scientificName": "Cervidae",
+      "modelPath": "/assets/models/Deer.glb",
+      "habitat": "Forests, woodlands, and meadows",
+      "diet": "Herbivore - leaves, grass, fruits, and nuts",
+      "size": "Height: 0.6-1.5m, Weight: 30-300kg",
+      "traits": [
+        "Antlers are shed and regrown annually",
+        "Excellent jumpers and swimmers",
+        "Highly sensitive hearing and smell",
+        "Most active during dawn and dusk"
+      ],
+      "funFact": "Deer can run up to 60 km/h and jump as high as 3 meters!",
+      "environmentType": "forest",
+      "guidedLearningSteps": [
+        {
+          "step": 1,
+          "region": "Head",
+          "title": "The Head",
+          "description": "A deer's head features large, sensitive ears that can rotate independently to detect sounds from all directions. Their eyes are positioned on the sides for wide-angle vision to spot predators.",
+          "cameraPosition": [0, 1.8, 6],
+          "cameraTarget": [0, 0.8, 0]
+        },
+        {
+          "step": 2,
+          "region": "Antlers",
+          "title": "The Antlers",
+          "description": "Male deer grow antlers annually, which are shed and regrown each year. Antlers are used for display, combat with other males, and can grow up to impressive sizes.",
+          "cameraPosition": [0, 2.2, 6.5],
+          "cameraTarget": [0, 1.2, 0]
+        },
+        {
+          "step": 3,
+          "region": "Body",
+          "title": "The Body",
+          "description": "Deer have a lean, agile body built for speed and jumping. Their powerful hind legs allow them to leap up to 3 meters high and run at speeds of 60 km/h.",
+          "cameraPosition": [0, 2, 7],
+          "cameraTarget": [0, 0.6, 0]
+        },
+        {
+          "step": 4,
+          "region": "Legs",
+          "title": "The Legs",
+          "description": "Long, slender legs with strong muscles enable deer to be excellent jumpers and runners. The hooves are split and provide good traction on various terrains.",
+          "cameraPosition": [3.5, 1, 5],
+          "cameraTarget": [0, 0.3, 0]
+        }
+      ]
+    },
+    {
+      "id": "fox",
+      "name": "Fox",
+      "scientificName": "Vulpes vulpes",
+      "modelPath": "/assets/models/Fox.glb",
+      "habitat": "Forests, grasslands, and urban areas",
+      "diet": "Omnivore - small mammals, birds, fruits, and insects",
+      "size": "Height: 0.3-0.4m, Weight: 3-14kg",
+      "traits": [
+        "Excellent hearing - can hear rodents underground",
+        "Adaptable to various environments",
+        "Solitary hunters with keen senses",
+        "Known for their intelligence and cunning"
+      ],
+      "funFact": "Foxes can make over 40 different sounds, including a distinctive 'bark'!",
+      "environmentType": "forest",
+      "guidedLearningSteps": [
+        {
+          "step": 1,
+          "region": "Head",
+          "title": "The Head",
+          "description": "A fox's head features a pointed snout with excellent sense of smell, large ears that can rotate to detect sounds, and keen eyes adapted for both day and night vision. Their whiskers help them navigate in tight spaces.",
+          "cameraPosition": [0, 1.2, 5],
+          "cameraTarget": [0, 0.5, 0]
+        },
+        {
+          "step": 2,
+          "region": "Body",
+          "title": "The Body",
+          "description": "Foxes have a slender, agile body built for quick movements and stealth. Their flexible spine allows them to twist and turn rapidly when hunting. The bushy tail helps with balance and communication.",
+          "cameraPosition": [0, 1.3, 6],
+          "cameraTarget": [0, 0.4, 0]
+        },
+        {
+          "step": 3,
+          "region": "Legs",
+          "title": "The Legs",
+          "description": "Fox legs are relatively short but powerful, allowing them to pounce on prey with precision. Their paws have sharp claws for digging and catching small animals. Foxes are excellent jumpers and climbers.",
+          "cameraPosition": [3, 0.8, 4.5],
+          "cameraTarget": [0, 0.2, 0]
+        },
+        {
+          "step": 4,
+          "region": "Tail",
+          "title": "The Tail",
+          "description": "The fox's bushy tail, or 'brush', serves multiple purposes: balance during jumps and runs, warmth when curled around the body, and communication through various positions and movements.",
+          "cameraPosition": [-3.5, 1.1, 4.5],
+          "cameraTarget": [0, 0.3, -0.2]
+        }
+      ]
+    },
+    {
+      "id": "alpaca",
+      "name": "Alpaca",
+      "scientificName": "Vicugna pacos",
+      "modelPath": "/assets/models/Alpaca.glb",
+      "habitat": "High altitude grasslands in the Andes",
+      "diet": "Herbivore - grass and hay",
+      "size": "Height: 0.8-1.0m, Weight: 48-84kg",
+      "traits": [
+        "Domesticated for their soft, luxurious fiber",
+        "Very gentle and social animals",
+        "Can live at altitudes up to 4,000m",
+        "Excellent herd animals"
+      ],
+      "funFact": "Alpaca fiber is stronger and warmer than sheep's wool!",
+      "environmentType": "farm",
+      "guidedLearningSteps": [
+        {
+          "step": 1,
+          "region": "Head",
+          "title": "The Head",
+          "description": "Alpacas have a gentle, expressive face with large, curious eyes. Their long neck and small, pointed ears help them stay alert to their surroundings. They communicate through soft humming sounds.",
+          "cameraPosition": [0, 1.6, 5.5],
+          "cameraTarget": [0, 0.9, 0]
+        },
+        {
+          "step": 2,
+          "region": "Fiber Coat",
+          "title": "The Luxurious Fiber",
+          "description": "Alpacas are prized for their soft, luxurious fiber that comes in 22 natural colors. The fiber is hypoallergenic, stronger than sheep's wool, and provides excellent insulation in cold mountain climates.",
+          "cameraPosition": [0, 1.8, 6],
+          "cameraTarget": [0, 0.6, 0]
+        },
+        {
+          "step": 3,
+          "region": "Body",
+          "title": "The Body",
+          "description": "Alpacas have a compact, sturdy body adapted to high altitudes. They can live comfortably at elevations up to 4,000 meters. Their efficient digestive system allows them to thrive on sparse mountain vegetation.",
+          "cameraPosition": [0, 1.7, 6.5],
+          "cameraTarget": [0, 0.5, 0]
+        },
+        {
+          "step": 4,
+          "region": "Legs",
+          "title": "The Legs",
+          "description": "Alpaca legs are strong and well-proportioned, ending in soft, padded feet with two toes. This gentle foot structure prevents damage to delicate mountain terrain and makes them excellent pack animals.",
+          "cameraPosition": [3.5, 1, 5],
+          "cameraTarget": [0, 0.3, 0]
+        }
+      ]
+    },
+    {
+      "id": "bull",
+      "name": "Bull",
+      "scientificName": "Bos taurus",
+      "modelPath": "/assets/models/Bull.glb",
+      "habitat": "Farms, ranches, and grasslands",
+      "diet": "Herbivore - grass, hay, and grains",
+      "size": "Height: 1.3-1.6m, Weight: 500-1,000kg",
+      "traits": [
+        "Male cattle with impressive horns",
+        "Strong and powerful build",
+        "Can be territorial and protective",
+        "Important in agriculture and breeding"
+      ],
+      "funFact": "Bulls are colorblind to red - they react to movement, not the color!",
+      "environmentType": "farm",
+      "guidedLearningSteps": [
+        {
+          "step": 1,
+          "region": "Head and Horns",
+          "title": "The Head and Horns",
+          "description": "A bull's head features powerful jaws and impressive horns that grow continuously. The horns are used for defense, dominance displays, and digging. Bulls have excellent peripheral vision, allowing them to see almost 360 degrees.",
+          "cameraPosition": [0, 2, 6],
+          "cameraTarget": [0, 1, 0]
+        },
+        {
+          "step": 2,
+          "region": "Body",
+          "title": "The Body",
+          "description": "Bulls have a massive, muscular body with a broad chest and powerful shoulders. This build reflects their strength and ability to protect their territory. Their thick hide provides protection and helps regulate body temperature.",
+          "cameraPosition": [0, 2.2, 7],
+          "cameraTarget": [0, 0.7, 0]
+        },
+        {
+          "step": 3,
+          "region": "Legs",
+          "title": "The Legs",
+          "description": "A bull's legs are thick and powerful, supporting their heavy body weight. The cloven hooves provide stability on various terrains. Despite their size, bulls can move quickly when needed.",
+          "cameraPosition": [4, 1.2, 5],
+          "cameraTarget": [0, 0.4, 0]
+        },
+        {
+          "step": 4,
+          "region": "Musculature",
+          "title": "Powerful Build",
+          "description": "The bull's overall musculature demonstrates incredible strength. The neck muscles, in particular, are well-developed, supporting the heavy head and horns. This power makes them formidable animals.",
+          "cameraPosition": [0, 2, 6.5],
+          "cameraTarget": [0, 0.6, 0]
+        }
+      ]
+    },
+    {
+      "id": "donkey",
+      "name": "Donkey",
+      "scientificName": "Equus africanus asinus",
+      "modelPath": "/assets/models/Donkey.glb",
+      "habitat": "Arid and semi-arid regions, farms",
+      "diet": "Herbivore - grass, hay, and shrubs",
+      "size": "Height: 0.9-1.6m, Weight: 80-480kg",
+      "traits": [
+        "Incredibly strong for their size",
+        "Excellent memory and problem-solving",
+        "Very hardy and adaptable",
+        "Can live up to 50 years"
+      ],
+      "funFact": "Donkeys have an incredible memory - they can recognize other donkeys and places they've been to even 25 years later!",
+      "environmentType": "farm",
+      "guidedLearningSteps": [
+        {
+          "step": 1,
+          "region": "Head",
+          "title": "The Head",
+          "description": "A donkey's head features large, expressive ears that can rotate independently to detect sounds. Their long ears also help with temperature regulation. Donkeys have excellent memory and can recognize faces and places for decades.",
+          "cameraPosition": [0, 1.8, 6],
+          "cameraTarget": [0, 1, 0]
+        },
+        {
+          "step": 2,
+          "region": "Body",
+          "title": "The Body",
+          "description": "Donkeys have a compact, sturdy body built for endurance and strength. Despite their smaller size compared to horses, they can carry heavy loads relative to their body weight. Their hardy nature allows them to thrive in harsh environments.",
+          "cameraPosition": [0, 2, 7],
+          "cameraTarget": [0, 0.7, 0]
+        },
+        {
+          "step": 3,
+          "region": "Legs",
+          "title": "The Legs",
+          "description": "Donkey legs are strong and well-muscled, ending in tough hooves adapted for rocky terrain. Their sure-footedness makes them excellent pack animals in mountainous regions. The legs support their incredible strength-to-weight ratio.",
+          "cameraPosition": [4, 1.2, 5],
+          "cameraTarget": [0, 0.4, 0]
+        },
+        {
+          "step": 4,
+          "region": "Tail",
+          "title": "The Tail",
+          "description": "A donkey's tail is covered in coarse hair and serves multiple purposes: swatting insects, communication, and balance. The tail movement can indicate the donkey's mood and alertness.",
+          "cameraPosition": [-4, 1.5, 5],
+          "cameraTarget": [0, 0.5, -0.2]
+        }
+      ]
+    },
+    {
+      "id": "husky",
+      "name": "Husky",
+      "scientificName": "Canis lupus familiaris",
+      "modelPath": "/assets/models/Husky.glb",
+      "habitat": "Cold climates, originally from Siberia",
+      "diet": "Omnivore - high-protein dog food and meat",
+      "size": "Height: 0.5-0.6m, Weight: 16-27kg",
+      "traits": [
+        "Bred for sled pulling and endurance",
+        "Thick double coat for cold weather",
+        "Very energetic and friendly",
+        "Excellent pack animals"
+      ],
+      "funFact": "Huskies can run up to 200km in a single day when pulling a sled!",
+      "environmentType": "snow",
+      "guidedLearningSteps": [
+        {
+          "step": 1,
+          "region": "Head",
+          "title": "The Head",
+          "description": "Huskies have a wolf-like appearance with alert, triangular ears and expressive eyes. Their thick facial fur protects against cold, and their keen senses help them navigate harsh environments.",
+          "cameraPosition": [0, 1.4, 5],
+          "cameraTarget": [0, 0.5, 0]
+        },
+        {
+          "step": 2,
+          "region": "Coat",
+          "title": "The Double Coat",
+          "description": "Huskies have a thick double coat: a dense undercoat for insulation and a longer topcoat that repels water and snow. This adaptation allows them to survive in extremely cold temperatures.",
+          "cameraPosition": [0, 1.6, 6],
+          "cameraTarget": [0, 0.4, 0]
+        },
+        {
+          "step": 3,
+          "region": "Body",
+          "title": "The Body",
+          "description": "Built for endurance, huskies have a compact, muscular body designed for pulling sleds over long distances. They can travel up to 200km in a single day.",
+          "cameraPosition": [0, 1.5, 6.5],
+          "cameraTarget": [0, 0.35, 0]
+        },
+        {
+          "step": 4,
+          "region": "Legs and Paws",
+          "title": "Legs and Paws",
+          "description": "Strong legs and large, webbed paws act like snowshoes, distributing weight on snow and providing excellent traction. The webbing also helps them swim efficiently.",
+          "cameraPosition": [3, 0.8, 4.5],
+          "cameraTarget": [0, 0.2, 0]
+        }
+      ]
+    },
+    {
+      "id": "pig",
+      "name": "Pig",
+      "scientificName": "Sus scrofa domesticus",
+      "modelPath": "/assets/models/Pig.glb",
+      "habitat": "Farms and domestic settings",
+      "diet": "Omnivore - grains, vegetables, and food scraps",
+      "size": "Height: 0.5-0.9m, Weight: 50-350kg",
+      "traits": [
+        "Highly intelligent - smarter than dogs",
+        "Excellent sense of smell",
+        "Very clean animals despite reputation",
+        "Can learn tricks and commands"
+      ],
+      "funFact": "Pigs are one of the smartest animals on Earth - they can play video games and recognize themselves in mirrors!",
+      "environmentType": "farm",
+      "guidedLearningSteps": [
+        {
+          "step": 1,
+          "region": "Head",
+          "title": "The Head",
+          "description": "A pig's head features a sensitive snout used for rooting and exploring. Their excellent sense of smell helps them find food underground. Pigs are highly intelligent - smarter than dogs - and can learn complex tasks and recognize themselves in mirrors.",
+          "cameraPosition": [0, 1.3, 5],
+          "cameraTarget": [0, 0.7, 0]
+        },
+        {
+          "step": 2,
+          "region": "Body",
+          "title": "The Body",
+          "description": "Pigs have a rounded, barrel-shaped body with a thick layer of fat that provides insulation. Despite their reputation, pigs are actually very clean animals when given the opportunity. Their body is designed for efficient food conversion.",
+          "cameraPosition": [0, 1.5, 6],
+          "cameraTarget": [0, 0.5, 0]
+        },
+        {
+          "step": 3,
+          "region": "Legs",
+          "title": "The Legs",
+          "description": "Pig legs are relatively short but strong, ending in cloven hooves. The front legs are particularly powerful, used for digging and rooting. Despite their stocky build, pigs can run surprisingly fast when needed.",
+          "cameraPosition": [3, 0.8, 4.5],
+          "cameraTarget": [0, 0.3, 0]
+        },
+        {
+          "step": 4,
+          "region": "Tail",
+          "title": "The Tail",
+          "description": "A pig's curly tail is a distinctive feature. When happy and content, pigs often wag their tails. The tail also helps with balance and can indicate the pig's emotional state.",
+          "cameraPosition": [-3.5, 1.1, 4.5],
+          "cameraTarget": [0, 0.4, -0.2]
+        }
+      ]
+    },
+    {
+      "id": "sheep",
+      "name": "Sheep",
+      "scientificName": "Ovis aries",
+      "modelPath": "/assets/models/Sheep.glb",
+      "habitat": "Grasslands, hills, and farms",
+      "diet": "Herbivore - grass and hay",
+      "size": "Height: 0.6-1.2m, Weight: 45-160kg",
+      "traits": [
+        "Excellent memory for faces",
+        "Very social and flock-oriented",
+        "Wool grows continuously",
+        "Can recognize up to 50 different faces"
+      ],
+      "funFact": "Sheep have excellent memories and can remember up to 50 different sheep and human faces for years!",
+      "environmentType": "grassland",
+      "guidedLearningSteps": [
+        {
+          "step": 1,
+          "region": "Head",
+          "title": "The Head",
+          "description": "A sheep's head features a gentle face with large, calm eyes positioned on the sides for wide-angle vision. Their excellent memory allows them to recognize up to 50 different faces. The split upper lip helps them graze close to the ground.",
+          "cameraPosition": [0, 1.6, 5.5],
+          "cameraTarget": [0, 0.9, 0]
+        },
+        {
+          "step": 2,
+          "region": "Wool",
+          "title": "The Wool Coat",
+          "description": "Sheep are covered in wool that grows continuously throughout their lives. Wool provides excellent insulation, keeping sheep warm in winter and cool in summer. The wool must be sheared regularly for the sheep's health and comfort.",
+          "cameraPosition": [0, 1.8, 6],
+          "cameraTarget": [0, 0.6, 0]
+        },
+        {
+          "step": 3,
+          "region": "Body",
+          "title": "The Body",
+          "description": "Sheep have a compact, rounded body built for grazing. They are very social animals, preferring to stay in flocks. Their digestive system is highly efficient at extracting nutrients from grass and hay.",
+          "cameraPosition": [0, 1.7, 6.5],
+          "cameraTarget": [0, 0.5, 0]
+        },
+        {
+          "step": 4,
+          "region": "Legs",
+          "title": "The Legs",
+          "description": "Sheep legs are relatively short and sturdy, ending in cloven hooves. The hooves need regular trimming to prevent overgrowth. Despite their gentle appearance, sheep are agile and can navigate rocky terrain.",
+          "cameraPosition": [3.5, 1, 5],
+          "cameraTarget": [0, 0.3, 0]
+        }
+      ]
+    },
+    {
+      "id": "stag",
+      "name": "Stag",
+      "scientificName": "Cervus elaphus",
+      "modelPath": "/assets/models/Stag.glb",
+      "habitat": "Forests, woodlands, and mountains",
+      "diet": "Herbivore - grass, leaves, and bark",
+      "size": "Height: 1.2-1.5m, Weight: 160-240kg",
+      "traits": [
+        "Impressive antlers used for display and combat",
+        "Strong and agile runners",
+        "Excellent sense of hearing",
+        "Antlers can grow up to 1 meter wide"
+      ],
+      "funFact": "A stag's antlers can weigh up to 15kg and are shed and regrown every year!",
+      "environmentType": "forest",
+      "guidedLearningSteps": [
+        {
+          "step": 1,
+          "region": "Head",
+          "title": "The Head",
+          "description": "A stag's head features large, sensitive ears that can rotate to detect sounds from all directions. Their excellent sense of hearing helps them detect predators. The head supports the impressive antlers used for display and combat.",
+          "cameraPosition": [0, 2, 6],
+          "cameraTarget": [0, 1, 0]
+        },
+        {
+          "step": 2,
+          "region": "Antlers",
+          "title": "The Antlers",
+          "description": "A stag's antlers are one of nature's most impressive features. They can grow up to 1 meter wide and weigh up to 15kg. Antlers are shed and regrown annually, growing larger each year. They're used for display, dominance, and combat with other males.",
+          "cameraPosition": [0, 2.5, 6.5],
+          "cameraTarget": [0, 1.3, 0]
+        },
+        {
+          "step": 3,
+          "region": "Body",
+          "title": "The Body",
+          "description": "Stags have a powerful, muscular body built for speed and agility. They are strong runners and can navigate difficult terrain. The body supports the weight of the antlers and provides the strength needed for rutting season battles.",
+          "cameraPosition": [0, 2.2, 7],
+          "cameraTarget": [0, 0.7, 0]
+        },
+        {
+          "step": 4,
+          "region": "Legs",
+          "title": "The Legs",
+          "description": "Stag legs are long, strong, and agile, allowing them to run at high speeds and jump over obstacles. The hooves are adapted for various terrains, from soft forest floors to rocky mountain slopes.",
+          "cameraPosition": [4, 1.2, 5],
+          "cameraTarget": [0, 0.4, 0]
+        }
+      ]
+    },
+    {
+      "id": "zebra",
+      "name": "Zebra",
+      "scientificName": "Equus zebra",
+      "modelPath": "/assets/models/Zebra.glb",
+      "habitat": "Grasslands and savannas of Africa",
+      "diet": "Herbivore - grass, leaves, and bark",
+      "size": "Height: 1.2-1.5m, Weight: 200-450kg",
+      "traits": [
+        "Unique stripe patterns - no two are alike",
+        "Excellent runners and kickers",
+        "Live in herds for protection",
+        "Stripes may help with temperature regulation"
+      ],
+      "funFact": "Each zebra has a unique stripe pattern, just like human fingerprints!",
+      "environmentType": "savannah",
+      "guidedLearningSteps": [
+        {
+          "step": 1,
+          "region": "Head",
+          "title": "The Head",
+          "description": "A zebra's head features large, alert ears that can rotate to detect sounds. Their eyes are positioned on the sides for excellent peripheral vision to spot predators. The long muzzle is adapted for grazing on tough grasses.",
+          "cameraPosition": [0, 2, 6],
+          "cameraTarget": [0, 1, 0]
+        },
+        {
+          "step": 2,
+          "region": "Stripes",
+          "title": "The Unique Stripes",
+          "description": "Each zebra has a unique stripe pattern, like a fingerprint. Scientists believe stripes may help with temperature regulation, confuse predators, or help zebras recognize each other. The stripes continue all over the body, creating a distinctive appearance.",
+          "cameraPosition": [0, 2.2, 7],
+          "cameraTarget": [0, 0.7, 0]
+        },
+        {
+          "step": 3,
+          "region": "Body",
+          "title": "The Body",
+          "description": "Zebras have a robust body built for endurance running. They can run at speeds up to 65 km/h to escape predators. Their digestive system is highly efficient at processing tough savannah grasses.",
+          "cameraPosition": [0, 2.1, 7],
+          "cameraTarget": [0, 0.6, 0]
+        },
+        {
+          "step": 4,
+          "region": "Legs",
+          "title": "The Legs",
+          "description": "Zebra legs are long and powerful, ending in a single solid hoof. They are excellent runners and can deliver powerful kicks for defense. The striped pattern continues down the legs, creating a striking visual effect.",
+          "cameraPosition": [4.5, 1.5, 5],
+          "cameraTarget": [0, 0.4, 0]
+        }
+      ]
+    },
+    {
+      "id": "llama",
+      "name": "Llama",
+      "scientificName": "Lama glama",
+      "modelPath": "/assets/models/Llama.glb",
+      "habitat": "High altitude regions of South America",
+      "diet": "Herbivore - grass, hay, and shrubs",
+      "size": "Height: 1.7-1.8m, Weight: 130-200kg",
+      "traits": [
+        "Used as pack animals for thousands of years",
+        "Very intelligent and trainable",
+        "Can carry up to 25% of their body weight",
+        "Gentle but can spit when annoyed"
+      ],
+      "funFact": "Llamas are excellent guard animals and are often used to protect flocks of sheep from predators!",
+      "environmentType": "farm",
+      "guidedLearningSteps": [
+        {
+          "step": 1,
+          "region": "Head",
+          "title": "The Head",
+          "description": "A llama's head features a long, graceful neck and expressive eyes. Their ears are banana-shaped and can move independently. Llamas communicate through various sounds and body language, and can spit when annoyed or threatened.",
+          "cameraPosition": [0, 2.2, 6],
+          "cameraTarget": [0, 1.2, 0]
+        },
+        {
+          "step": 2,
+          "region": "Body",
+          "title": "The Body",
+          "description": "Llamas have a tall, elegant body adapted to high altitudes. They can carry up to 25% of their body weight, making them excellent pack animals. Their efficient digestive system allows them to thrive on sparse mountain vegetation.",
+          "cameraPosition": [0, 2.4, 7],
+          "cameraTarget": [0, 0.8, 0]
+        },
+        {
+          "step": 3,
+          "region": "Fiber",
+          "title": "The Fiber Coat",
+          "description": "Llamas have a thick, soft fiber coat that provides insulation in cold mountain climates. The fiber comes in various natural colors and is highly valued. Llamas are sheared annually, similar to sheep.",
+          "cameraPosition": [0, 2.3, 6.5],
+          "cameraTarget": [0, 0.7, 0]
+        },
+        {
+          "step": 4,
+          "region": "Legs",
+          "title": "The Legs",
+          "description": "Llama legs are long and slender, ending in soft, padded feet with two toes. This gentle foot structure prevents damage to delicate mountain terrain. Their sure-footedness makes them excellent navigators of rocky paths.",
+          "cameraPosition": [4, 1.5, 5],
+          "cameraTarget": [0, 0.5, 0]
+        }
+      ]
+    },
+    {
+      "id": "shiba-inu",
+      "name": "Shiba Inu",
+      "scientificName": "Canis lupus familiaris",
+      "modelPath": "/assets/models/Shiba Inu.glb",
+      "habitat": "Domestic - originally from Japan",
+      "diet": "Omnivore - high-quality dog food",
+      "size": "Height: 0.35-0.43m, Weight: 8-10kg",
+      "traits": [
+        "Ancient Japanese breed",
+        "Independent and alert",
+        "Very clean and cat-like behavior",
+        "Strong-willed but loyal"
+      ],
+      "funFact": "Shiba Inus are known for their 'Shiba scream' - a high-pitched vocalization when excited or frustrated!",
+      "environmentType": "farm",
+      "guidedLearningSteps": [
+        {
+          "step": 1,
+          "region": "Head",
+          "title": "The Head",
+          "description": "A Shiba Inu's head features a fox-like face with alert, triangular ears and expressive eyes. This ancient Japanese breed has a distinctive appearance. They're known for their 'Shiba scream' - a unique high-pitched vocalization.",
+          "cameraPosition": [0, 1.2, 4.5],
+          "cameraTarget": [0, 0.4, 0]
+        },
+        {
+          "step": 2,
+          "region": "Body",
+          "title": "The Body",
+          "description": "Shiba Inus have a compact, well-proportioned body with a curled tail. They're known for their cat-like cleanliness and independent nature. Despite their small size, they're agile and alert.",
+          "cameraPosition": [0, 1.3, 5.5],
+          "cameraTarget": [0, 0.35, 0]
+        },
+        {
+          "step": 3,
+          "region": "Coat",
+          "title": "The Double Coat",
+          "description": "Shibas have a thick double coat that comes in red, sesame, black and tan, or cream colors. The outer coat is stiff and straight, while the undercoat is soft and dense, providing excellent insulation.",
+          "cameraPosition": [0, 1.3, 6],
+          "cameraTarget": [0, 0.3, 0]
+        },
+        {
+          "step": 4,
+          "region": "Tail",
+          "title": "The Curled Tail",
+          "description": "A Shiba Inu's tail is one of their most distinctive features - it curls tightly over their back. The tail position can indicate their mood. This breed is known for being strong-willed but extremely loyal to their family.",
+          "cameraPosition": [-3, 1, 4.5],
+          "cameraTarget": [0, 0.3, -0.1]
+        }
+      ]
+    },
+    {
+      "id": "pug",
+      "name": "Pug",
+      "scientificName": "Canis lupus familiaris",
+      "modelPath": "/assets/models/Pug.glb",
+      "habitat": "Domestic companion",
+      "diet": "Omnivore - dog food (watch for overeating!)",
+      "size": "Height: 0.25-0.30m, Weight: 6-8kg",
+      "traits": [
+        "Playful and charming personality",
+        "Great companion dogs",
+        "Distinctive wrinkled face",
+        "Love attention and cuddles"
+      ],
+      "funFact": "Pugs were bred to be lap dogs for Chinese emperors and were treated like royalty!",
+      "environmentType": "farm",
+      "guidedLearningSteps": [
+        {
+          "step": 1,
+          "region": "Head",
+          "title": "The Head",
+          "description": "A pug's head features a distinctive wrinkled face with large, expressive eyes and a short, flat muzzle. Their face wrinkles were originally bred to resemble the Chinese character for 'prince'. Pugs were bred as lap dogs for Chinese emperors.",
+          "cameraPosition": [0, 1, 4],
+          "cameraTarget": [0, 0.3, 0]
+        },
+        {
+          "step": 2,
+          "region": "Body",
+          "title": "The Body",
+          "description": "Pugs have a compact, square body with a deep chest. Despite their small size, they're sturdy and well-muscled. Their playful and charming personality makes them excellent companion dogs.",
+          "cameraPosition": [0, 1.1, 5],
+          "cameraTarget": [0, 0.25, 0]
+        },
+        {
+          "step": 3,
+          "region": "Coat",
+          "title": "The Coat",
+          "description": "Pugs have a short, smooth coat that comes in fawn, black, apricot, or silver colors. The coat is easy to maintain but they do shed. Their distinctive facial wrinkles need regular cleaning to prevent skin issues.",
+          "cameraPosition": [0, 1.1, 5.5],
+          "cameraTarget": [0, 0.2, 0]
+        },
+        {
+          "step": 4,
+          "region": "Tail",
+          "title": "The Curled Tail",
+          "description": "A pug's tail is tightly curled over their back, creating a distinctive silhouette. The double curl is highly prized in the breed standard. Pugs love attention and cuddles, making them perfect lap companions.",
+          "cameraPosition": [-3, 0.9, 4],
+          "cameraTarget": [0, 0.2, -0.1]
+        }
+      ]
+    }
+  ]
+}
+
